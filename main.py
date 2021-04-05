@@ -48,7 +48,7 @@ print("Connecting Camera at IP address: ", ip)
 camera.connect_stream(ip, isUDP=True) # Stream in UDP
 
 camera.connect_command(ip) # Command port for camera control
-camera_setup(camera)
+# camera_setup(camera)
 
 print("Grabbing images...")
 count = 0
